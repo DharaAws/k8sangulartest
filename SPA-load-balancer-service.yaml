@@ -8,7 +8,7 @@ spec:
   type: LoadBalancer
   ports:
   - name: service-port-name
-    port: 80
+    port: 8080
     protocol: TCP
   selector:
     deployment-label-key: deployment-label-value#for creating a deployment in kubernetes
