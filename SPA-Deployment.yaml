@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: deploment-container-name
-          image: inyee/spa-demo:v1
+          image: sanjukrs/spa-demo:v1
           imagePullPolicy: Always
           ports:
           - containerPort: 8080
